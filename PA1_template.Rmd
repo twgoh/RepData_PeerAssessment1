@@ -1,11 +1,9 @@
 ---
-<<<<<<< HEAD
 title: "RepResearch_Assignment1"
 author: "twgoh"
 date: "Sunday, December 14, 2014"
 output: html_document
 ---
-
 ```{r set_options, echo=F, message=F}
 require(knitr)
 opts_chunk$set( fig.path = 'figure/' )
@@ -55,26 +53,10 @@ mean(steps_day$steps)
 ```{r}
 median(steps_day$steps)
 ```
-=======
-title: "Reproducible Research: Peer Assessment 1"
-output: 
-  html_document:
-    keep_md: true
----
-
-
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
-
->>>>>>> github/master
 
 
 ## What is the average daily activity pattern?
 
-<<<<<<< HEAD
 >  1. Create a time series plot of the mean number of steps taken in each 5-minute interval across all days 
 
 - Create a data set with the mean number of steps taken in each 5-minute interval across all days.
@@ -192,12 +174,3 @@ for (type in c("weekend", "weekday")) {
     plot(steps_type, type = "l", main = type)
 }
 ```
-=======
-
-
-## Imputing missing values
-
-
-
-## Are there differences in activity patterns between weekdays and weekends?
->>>>>>> github/master

@@ -6,7 +6,6 @@ output: html_document
 ---
 
 
-
 ## Loading and preprocessing the data
 
 >  1. Unzip and load the dataset 
